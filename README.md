@@ -1,17 +1,17 @@
-## 🚂 Bot Telegram per Applicazioni di Travel Assistance 🚌
+## 🚂 Telegram Bot for Travel Assistance Applications 🚌
 
-**Progetto di Tesi di Laurea** in Ingegneria Informatica Triennale.
+**BSc thesis project** in Computer Engineering.
 
-### 📌 Obiettivo
+### 📌 Objective
 
-Lo scopo di questo progetto è sviluppare un bot Telegram per facilitare la ricerca di biglietti di viaggio dai principali provider come Trenitalia, Itabus e Flixbus. Questo bot mira a fornire agli utenti una piattaforma semplice e intuitiva per trovare e confrontare le migliori opzioni di viaggio.
+The aim of this project is to develop a Telegram bot to facilitate the search for travel tickets from major providers such as Trenitalia, Itabus, and Flixbus. This bot aims to provide users with a simple and intuitive platform to find and compare the best travel options.
 
-### 🗂 Struttura del Progetto
+### 🗂 Project Structure
 
-- `src\data\moduli`: Moduli chiave per l'acquisizione dei dati dai provider.
-- `src\data\error`: Modulo per la gestione degli errori durante l'esecuzione di funzioni.
-- `src\data\utils`: Contiene moduli per la formattazione delle risposte (funzioni di parsing) delle varie richieste dei provider. In questa cartella è anche presente un modulo chiamato `manager.js` che funge da controller. 
+- `src\data\modules`: Key modules for data acquisition from providers.
+- `src\data\error`: Module for handling errors during function execution.
+- `src\data\utils`: Contains modules for formatting responses (parsing functions) from various provider requests. This folder also includes a module named `manager.js` serving as a controller.
 
 ### 🌐 WebApp
 
-La WebApp è stata sviluppata in React. Per il collegamento con Telegram, è stato seguito quanto descritto nella [guida ufficiale di Telegram](https://core.telegram.org/bots/webapps).
+The WebApp is developed in React. For integration with Telegram, the approach described in the [official Telegram guide](https://core.telegram.org/bots/webapps) has been followed.
